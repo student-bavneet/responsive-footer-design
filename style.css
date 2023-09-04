@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    height: 20vh;
+}
+.footer1{
+    background-color: black;
+    padding:4em 2em 2em;
+    display: flex;
+    gap: 60px;
+}
+.box1{
+    flex: 1;
+}
+.head p{
+    color: rgb(17, 132, 247);
+    font-weight: medium;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.txt p{
+    color: rgb(240, 240, 240);
+    font-size: .9rem;
+    letter-spacing: .6px;
+    word-spacing: 8px;
+    text-align: justify;
+    line-height: 25px;
+}
+.txt ul li{
+    line-height: 30px;
+    list-style: none;
+    color: rgb(240, 240, 240);
+    font-size: .9rem;
+    letter-spacing: .6px;
+}
+.txt input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding:0 10px;
+    margin-bottom: 6px;
+}
+.txt button{
+    background-color: rgb(17, 132, 247);
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: .8px;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons i{
+    color: white;
+    font-size: 2rem;
+}
+.footer2{
+    background-color: black;
+    padding: 2em 2em 4em;
+    display: flex;
+}
+.box2{
+    flex: 1;
+}
+.head2{
+    text-align: center;
+}
+.head2 i{
+    color: rgb(17, 132, 247);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.txt2 p{
+    color: rgb(240, 240, 240);
+    font-size: .9rem;
+    letter-spacing: .6px;
+    text-align: justify;
+    line-height: 25px;
+    text-align: center;
+}
+.footer3{
+    background-color: rgb(25, 32, 36);
+    color: rgb(241, 241, 241);
+    height: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 1.7em;
+}
+
+@media screen and (max-width:550px) 
+{
+    .footer1{
+        flex-direction: column;
+    }   
+}
+
+@media screen and (max-width:450px) 
+{
+    .footer2{
+        flex-direction: column;
+        gap: 30px;
+    }   
+}
